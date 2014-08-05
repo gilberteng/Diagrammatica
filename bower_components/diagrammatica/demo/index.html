@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <title>Diagrammatica</title>
     <link href="bower_components/colorbrewer2/colorbrewer.css" rel="stylesheet">
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="bower_components/diagrammatica/dist/diagrammatica.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../dist/diagrammatica.css" rel="stylesheet">
     <style>
         .section-header {
             border-bottom: solid 1px #EEEEEE;
@@ -48,6 +48,7 @@
     </div>
     <div class="btn-toolbar">
         <button id="heat-map-chart1-reload" class="btn btn-default btn-sm"><span class="fa fa-refresh"></span></button>
+        <button id="heat-map-chart1-export" class="btn btn-default btn-sm"><span class="fa fa-download"></span></button>
     </div>
     <div id="heat-map-chart1"></div>
     <div class="section-header">
@@ -99,15 +100,15 @@
 </div>
 
 <!--Scripts-->
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="bower_components/d3/d3.js"></script>
 <script src="bower_components/check-types/src/check-types.min.js"></script>
 <script src="bower_components/colorbrewer2/colorbrewer.js"></script>
-<script src="bower_components/diagrammatica/dist/diagrammatica.min.js"></script>
+<script src="../dist/diagrammatica.js"></script>
 <script src="demo.js"></script>
 
-<script src="bower_components/angular/angular.min.js"></script>
-<script src="bower_components/diagrammatica/dist/diagrammatica-angular-module.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+<script src="../dist/diagrammatica-angular-module.js"></script>
 <script src="angular-demo.js"></script>
 </body>
 </html>
